@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "566534695459",
+    "firebase_url": "https://sharethought-400d7.firebaseio.com",
+    "project_id": "sharethought-400d7",
+    "storage_bucket": "sharethought-400d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566534695459:android:edcb356f247cea23225f96",
+        "android_client_info": {
+          "package_name": "com.chetan.sharethought"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566534695459-i9hhgjq6dbpn7o44s4keu1jrkbhp2onc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chetan.sharethought",
+            "certificate_hash": "884393b21ab1e002d5ed22a7278579d095b131ca"
+          }
+        },
+        {
+          "client_id": "566534695459-s21rj04ennsaei14dqvko6q6lo5rlesq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnU9DNOEoMVaeu1Nss5U-gLAw9eYRuMJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566534695459-s21rj04ennsaei14dqvko6q6lo5rlesq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

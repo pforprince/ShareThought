@@ -10,6 +10,7 @@
             android:layout_height="wrap_content">
 
             <androidx.appcompat.widget.Toolbar
+                android:background="@drawable/white_grey_border_bottom"
                 android:id="@+id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -18,4 +19,5 @@
         </com.google.android.material.appbar.AppBarLayout>
 
     </RelativeLayout>
+
 </merge>
