@@ -6,6 +6,7 @@
     tools:context=".MainActivity">
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <!-- toolbar -->
@@ -20,8 +21,10 @@
         <RelativeLayout
             android:id="@+id/relLayout2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_below="@id/relLayout1">
 
+            <include layout="@layout/layout_center_viewpager" />
         </RelativeLayout>
         <!-- bottom navigation -->
     </RelativeLayout>
