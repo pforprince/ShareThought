@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_icon"
+        android:icon="@drawable/ic_home"
+        android:title="" />
+    <item
+        android:id="@+id/search_icon"
+        android:icon="@drawable/ic_search"
+        android:title="" />
+    <item
+        android:id="@+id/upload_icon"
+        android:icon="@drawable/ic_add"
+        android:title="" />
+    <item
+        android:id="@+id/trending_icon"
+        android:icon="@drawable/ic_trending"
+        android:title="" />
+    <item
+        android:id="@+id/account_icon"
+        android:icon="@drawable/ic_account"
+        android:title="" />
+</menu>
