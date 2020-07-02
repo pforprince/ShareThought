@@ -16,6 +16,9 @@ import com.chetan.sharethought.Share.ShareActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
+/**
+ * Created by User on 5/28/2017.
+ */
 
 public class BottomNavigationViewHelper {
 

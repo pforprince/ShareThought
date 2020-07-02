@@ -13,7 +13,9 @@ import com.chetan.sharethought.R;
 import com.chetan.sharethought.Utils.BottomNavigationViewHelper;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
-
+/**
+ * Created by User on 5/28/2017.
+ */
 
 public class LikesActivity extends AppCompatActivity {
     private static final String TAG = "LikesActivity";
@@ -24,10 +26,10 @@ public class LikesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_register);
         Log.d(TAG, "onCreate: started.");
 
-        setupBottomNavigationView();
+        //setupBottomNavigationView();
     }
 
     /**

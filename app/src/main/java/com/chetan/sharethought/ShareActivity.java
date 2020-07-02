@@ -12,6 +12,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.chetan.sharethought.Utils.BottomNavigationViewHelper;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
+/**
+ * Created by User on 5/28/2017.
+ */
+
 public class ShareActivity extends AppCompatActivity {
     private static final String TAG = "ShareActivity";
     private static final int ACTIVITY_NUM = 2;
