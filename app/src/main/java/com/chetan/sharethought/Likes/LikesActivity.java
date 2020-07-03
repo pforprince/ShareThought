@@ -10,8 +10,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.chetan.sharethought.R;
-import com.chetan.sharethought.Utils.BottomNavigationViewHelper;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+
+import tabian.com.instagramclone2.Utils.BottomNavigationViewHelper;
 
 /**
  * Created by User on 5/28/2017.
@@ -26,10 +27,10 @@ public class LikesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_home);
         Log.d(TAG, "onCreate: started.");
 
-        //setupBottomNavigationView();
+        setupBottomNavigationView();
     }
 
     /**
@@ -39,7 +40,7 @@ public class LikesActivity extends AppCompatActivity {
         Log.d(TAG, "setupBottomNavigationView: setting up BottomNavigationView");
         BottomNavigationViewEx bottomNavigationViewEx = (BottomNavigationViewEx) findViewById(R.id.bottomNavViewBar);
         BottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx);
-        BottomNavigationViewHelper.enableNavigation(mContext, bottomNavigationViewEx);
+        BottomNavigationViewHelper.enableNavigation(mContext, this, bottomNavigationViewEx);
         Menu menu = bottomNavigationViewEx.getMenu();
         MenuItem menuItem = menu.getItem(ACTIVITY_NUM);
         menuItem.setChecked(true);
